@@ -392,6 +392,26 @@ h1, h2, h3 { text-wrap: balance; }
 .policy-hero h1 { margin: 1rem 0 0.9rem; font-size: clamp(3.2rem, 7vw, 6.25rem); font-weight: 500; letter-spacing: -0.075em; line-height: 0.95; }
 .policy-hero > p:last-child { margin: 0; color: var(--sage); font-size: 0.9rem; }
 
+.language-switch {
+  display: inline-flex;
+  margin-top: 1.8rem;
+  border: 1px solid rgba(226, 194, 122, 0.55);
+}
+
+.language-switch a {
+  padding: 0.45rem 0.75rem;
+  color: rgba(246, 242, 232, 0.72);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  transition: background-color 160ms ease, color 160ms ease;
+}
+
+.language-switch a + a { border-left: 1px solid rgba(226, 194, 122, 0.55); }
+.language-switch a:hover { color: var(--gold); }
+.language-switch a.is-current { background: var(--gold); color: var(--ink-deep); }
+
 .policy-summary { max-width: 41rem; margin-bottom: 4.5rem; padding: 1.65rem 1.8rem; border-left: 3px solid var(--coral); background: rgba(226, 194, 122, 0.11); }
 .policy-summary .section-kicker { margin-bottom: 0.6rem; }
 .policy-summary p:last-child { margin: 0; color: rgba(246, 242, 232, 0.78); }

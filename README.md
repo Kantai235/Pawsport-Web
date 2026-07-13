@@ -5,7 +5,8 @@ Pawsport 的 GitHub Pages 介紹網站、隱私權政策與支援頁面。
 ## 網址
 
 - 首頁：`https://pawsport.init.engineer/`
-- 隱私權政策：`https://pawsport.init.engineer/privacy.html`
+- 隱私權政策（繁體中文）：`https://pawsport.init.engineer/privacy.html`
+- Privacy Policy (English): `https://pawsport.init.engineer/privacy-en.html`
 - 支援與聯絡：`https://pawsport.init.engineer/support.html`
 
 網站為純靜態 HTML/CSS，推送至 `main` 後由 GitHub Actions 部署到 GitHub Pages。
