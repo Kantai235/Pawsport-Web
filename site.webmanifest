@@ -1,11 +1,11 @@
 {
   "name": "Pawsport",
   "short_name": "Pawsport",
-  "description": "帶著你的故事去相遇。",
+  "description": "讓你的獸設自己開口。",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#f5f0e5",
-  "theme_color": "#17233c",
+  "background_color": "#f8f8fb",
+  "theme_color": "#1559f5",
   "icons": [
     {
       "src": "assets/app-icon.png",
