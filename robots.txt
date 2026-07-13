@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://blog.init.engineer/Pawsport-Web/sitemap.xml
+Sitemap: https://pawsport.init.engineer/sitemap.xml
