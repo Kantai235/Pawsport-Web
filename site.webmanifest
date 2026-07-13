@@ -1,10 +1,11 @@
 {
-  "name": "Pawsport｜爪印護照",
+  "name": "Pawsport",
   "short_name": "Pawsport",
-  "start_url": "./",
-  "display": "browser",
-  "background_color": "#0f1a28",
-  "theme_color": "#0f1a28",
+  "description": "帶著你的故事去相遇。",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f0e5",
+  "theme_color": "#17233c",
   "icons": [
     {
       "src": "assets/app-icon.png",
