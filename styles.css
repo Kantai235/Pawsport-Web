@@ -221,7 +221,9 @@ a:focus-visible { outline: 3px solid var(--lemon); outline-offset: 4px; }
 .document-page .support-card .eyebrow { color: var(--white); }
 .document-page .support-card h1 { max-width: 490px; }
 .document-page .support-card > p:not(.eyebrow) { max-width: 480px; font-size: 16px; }
-.document-page .button-primary { margin-top: 12px; background: var(--lemon); color: var(--ink) !important; box-shadow: 4px 4px 0 var(--indigo); }
+.document-page .support-actions { display: flex; flex-wrap: wrap; gap: 14px; margin-top: 24px; }
+.document-page .button-primary { background: var(--lemon); color: var(--ink) !important; box-shadow: 4px 4px 0 var(--indigo); }
+.document-page .button-secondary { background: var(--white); color: var(--ink) !important; box-shadow: 4px 4px 0 var(--pink); }
 .document-page .support-guidance .section-kicker { margin: 0 0 24px; color: var(--pink); }
 .document-page .support-guidance ul { padding-left: 19px; }
 .document-page .site-footer { grid-template-columns: 1fr auto auto; padding: 28px 0; }
